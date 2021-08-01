@@ -1,1 +1,0 @@
-# polka-starter-challenge

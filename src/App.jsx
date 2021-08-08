@@ -1,11 +1,16 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div>
-      PolkaStarter
-    </div>
-  );
-}
+import Footer from './components/Footer';
+
+import NavBar from './layout/NavBar';
+import Projects from './pages/Projects';
+
+const App = () => (
+  <>
+    <NavBar />
+    <Projects />
+    <Footer />
+  </>
+);
 
 export default App;

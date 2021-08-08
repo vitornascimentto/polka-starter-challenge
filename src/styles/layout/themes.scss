@@ -1,0 +1,83 @@
+.dark {
+  &__border {
+    border: $dark-border 0.1rem solid;
+  }
+
+  &__container {
+    &__navbar {
+      background-color: $main-black;
+    }
+
+    &__main-container {
+      background-color: $main-black;
+    }
+
+    &__second-container {
+      background-color: $black-container-secundary;
+    }
+  }
+
+  &__font {
+    &__primary {
+      color: $main-white;
+    }
+
+    &__secundary {
+      color: $white-font;
+    }
+
+    &__gray {
+      color: $main-gray;
+    }
+
+    &__black {
+      color: $black-font-secundary;
+    }
+
+    &__footer-links {
+      color: $gray-secundary;
+    }
+  }
+}
+
+.light {
+  &__border {
+    border: $light-border 0.1rem solid;
+  }
+
+  &__container {
+    &__navbar {
+      background-color: $main-white;
+    }
+
+    &__main-container {
+      background-color: $white-secundary;
+    }
+
+    &__second-container {
+      background-color: $main-white;
+    }
+  }
+
+  &__font {ma
+    &__primary {
+      color: $main-black;
+    }
+
+    &__secundary {
+      color: $black-font-secundary;
+    }
+
+    &__gray {
+      color: $gray-font;
+    }
+
+    &__white {
+      color: $white-font;
+    }
+
+    &__footer-links {
+      color: $gray-footer;
+    }
+  }
+}

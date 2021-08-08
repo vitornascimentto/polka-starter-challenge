@@ -1,0 +1,127 @@
+.ps-l-navbar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+
+  width: 100%;
+  padding: 2.4rem 1.6rem;
+
+  &__dark-border {
+    border-bottom: $dark-border 0.1rem solid;
+  }
+  
+  &__light-border {
+    border-bottom: $light-border 0.1rem solid;
+  }
+
+  &__first-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 25%;
+
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: row;
+
+    color: $main-white;
+
+    font-weight: bold;
+    font-size: 2.2rem;
+
+    &__circle {
+      z-index: 1;
+
+      width: 0.7rem;
+      height: 0.7rem;
+
+      border-radius: 10rem;
+      background-color: #E8307D;
+
+      border: $main-black 0.1rem solid;
+
+      margin-top: 0.9rem;
+    }
+
+    &__letters {
+      margin-left: -0.3rem;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: space-around;
+
+    &__dark-item {
+      &:hover{
+        color: $main-white;
+      }
+
+      &__selected {
+        color: $main-white !important;
+      }
+    }
+
+    &__light-item{
+      &:hover{
+        color: $black-font-secundary;
+      }
+
+      &__selected {
+        color: $black-font-secundary !important;
+      }
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: row;
+
+    &__polka {
+      display: flex;
+      flex-direction: row;
+
+      align-items: center;
+      
+      font-size: 1.3rem;
+
+      padding: 1rem;
+      margin: -0.8rem 1rem;
+
+      border-radius: 0.3rem;
+
+      &__icon {
+        margin-right: 1rem;
+      }
+    }
+
+    &__cripto-name {
+      color: $main-gray;
+    }
+
+    &__ETH {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      padding: 1rem;
+      margin: -0.8rem 1rem;
+
+      border-radius: 0.3rem;
+
+      &__content {
+        padding: 0.9rem 1rem;
+        margin: -0.7rem -0.7rem -0.7rem 0.8rem;
+        border-radius: 0.3rem;
+      }
+
+      &__fox-icon {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

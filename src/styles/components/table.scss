@@ -1,0 +1,172 @@
+.ps-c-table {
+  padding: 5rem 8.4rem;
+
+  &__dark-container {
+    background-image: linear-gradient(to bottom, $main-black 30%, $black-container-secundary 30%, $black-container-secundary);
+  }
+
+  &__light-container {
+    background-image: linear-gradient(to bottom, $white-secundary 30%, $main-white 30%, $main-white);
+  }
+
+  &__title {
+    padding: 1.6rem 2.4rem;
+
+    text-align: start;
+  }
+
+  &__content {
+    width: 100%;
+  }
+
+  &__align-content {
+    margin-left: 3rem;
+  }
+
+  &__tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 30%;
+
+    margin-bottom: 1.2rem;
+
+    &__tab {
+      border: none;
+    }
+
+    &__dark {
+      &:hover{
+        color: $main-white;
+      }
+
+      &__selected {
+        color: $main-white !important;
+      }
+    }
+
+    &__light{
+      &:hover{
+        color: $black-font-secundary;
+      }
+
+      &__selected {
+        color: $black-font-secundary !important;
+      }
+    }
+  }
+
+  &__line {
+    &__dark {
+      border-bottom: $dark-border 0.1rem solid;
+    }
+
+    &__light {
+      border-bottom: $light-border 0.1rem solid;
+    }
+
+    &__default {
+      font-size: 1.6rem;
+      padding: 3.9rem 0rem;
+    }
+
+    &__name {
+      font-size: 2rem;
+      padding: 3.9rem 0rem;
+
+      &__dark {
+        border-left: $dark-border 0.1rem solid;
+      }
+
+      &__light {
+        border-left: $light-border 0.1rem solid;
+      }
+
+      &__image-container {
+        padding-left: 2.4rem;
+
+        &__image {
+          padding-right: 2.4rem;
+        }
+      }
+    }
+
+    &__subtitle {
+      font-size: 1.3rem;
+      
+      margin-top: 0.5rem;
+    }
+
+    &__subtitle-utc {
+      font-size: 1.3rem;
+      
+      margin-top: 0.5rem;
+
+      margin-left: 4.3rem;
+    }
+
+    &__ath {
+      color: $black-font-secundary;
+      font-size: 1.3rem;
+
+      background-color: #16D47F;
+
+      width: fit-content;
+
+      padding: 0.3rem 0.8rem;
+      margin-left: 3rem;
+      border-radius: 0.3rem;
+    }
+
+    &__network {
+      padding-left: 6rem;
+
+      &__dark {
+        border-right: $dark-border 0.1rem solid;
+      }
+
+      &__light {
+        border-right: $light-border 0.1rem solid;
+      }
+    }
+  }
+
+  &__columns {
+    font-size: 1.3rem;
+
+    width: fit-content;
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    align-items: center;
+
+    margin-top: 2.4rem;
+
+    &__button {
+      padding: 1.6rem 1.5rem 1.3rem;
+      margin-left: 1rem;
+
+      border-radius: 0.3rem;
+
+      &__dark {
+        background-color: #242A32;
+      }
+
+      &__light {
+        background-color: $main-white;
+        border: $light-border 0.1rem solid;
+      }
+    }
+
+    &__page {
+      font-size: 1.3rem;
+      margin-right: 2rem;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.ps-c-funded-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  padding: 0rem 8.4rem 5.4rem;
+
+  &__title {
+    font-size: 3.1rem;
+
+    margin-bottom: 0.7rem;
+  }
+
+  &__subtitle {
+    font-size: 2rem;
+  }
+
+  &__icon {
+    padding: 1.2rem;
+    margin-right: 3.2rem;
+
+    border-radius: 5rem;
+
+    &__dark-background {
+      &__yellow {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), linear-gradient(0deg, #FFD91E, #FFD91E);
+      }
+
+      &__blue {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), linear-gradient(0deg, #00F4F4, #00F4F4);
+      }
+
+      &__red {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), linear-gradient(0deg, #E8307D, #E8307D);
+      }
+    }
+
+    &__light-background {
+      &__yellow {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(0deg, #FFD91E, #FFD91E);
+      }
+
+      &__blue {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(0deg, #00D2D2, #00D2D2);
+      }
+
+      &__red {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), linear-gradient(0deg, #E8307D, #E8307D);
+      }
+    }
+  }
+
+  &__data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 42%;
+  }
+
+  &__data-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.6rem;
+
+    border-radius: 0.3rem;
+
+    &__dark-font {
+      &__yellow {
+        color: #FFD91E;
+      }
+
+      &__blue {
+        color: #00F4F4;
+      }
+
+      &__red {
+        color: #E8307D;
+      }
+    }
+
+    &__light-font {
+      &__yellow {
+        color: #EBB700;
+      }
+
+      &__blue {
+        color: #00D2D2;
+      }
+
+      &__red {
+        color: #E8307D;
+      }
+    }
+  
+
+    &__name {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 1.3rem;
+
+      margin-bottom: 0.5rem;
+    }
+
+    &__value {
+      display: flex;
+      justify-content: flex-end;
+
+      font-size: 2rem;
+    }
+  }
+}

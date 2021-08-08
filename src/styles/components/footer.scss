@@ -1,0 +1,155 @@
+.ps-c-footer {
+  padding: 4.8rem 8.4rem 7rem;
+
+  &__subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 1.6rem;
+
+    padding: 5.6rem;
+    margin-bottom: 8rem;
+  
+    &__title {
+      font-size: 3.9rem;
+      font-weight: bold;
+    }
+
+    &__subtitle {
+      font-size: 3.9rem;
+      font-weight: bold;
+
+      &__dark {
+        color: #06090E;
+        background-color: #00F4F4;
+      }
+
+      &__light {
+        color: #FFFFFF;
+        background-color: #00D2D2;
+      }
+
+      width: fit-content;
+      padding: 0.3rem 0.6rem 0.6rem;
+    }
+
+    &__button {
+      border-radius: 0.3rem;
+
+      padding: 1.6rem 2.4rem;
+
+      &__dark {
+        color: #00F4F4;
+        border: #00F4F4 0.1rem solid;
+      }
+
+      &__light {
+        color: #00D2D2;
+        border: #00D2D2 0.1rem solid;
+      }
+    }
+  }
+
+  &__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      width: 40%;
+
+      margin-left: -60rem;
+
+      &__column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &__primary {
+        align-self: flex-start;
+
+        font-size: 1.6rem;
+        margin-bottom: 1.6rem;
+      }
+
+      &__secondary {
+        align-self: flex-start;
+
+        font-size: 1.3rem;
+        margin-bottom: 1.6rem;
+      }
+    }
+
+    &__view {
+      font-size: 1.3rem;
+
+      height: fit-content;
+
+      border-radius: 0.3rem;
+
+      padding: 1.2rem 2rem;
+    }
+  }
+
+  &__last-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10.4rem;
+
+    &__company-signature {
+      font-size: 1.3rem;
+    }
+
+    &__right-items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &__icon {
+        margin: 0rem 1rem;
+      }
+
+      &__version {
+        margin: 0rem 2.4rem;
+      }
+
+      &__theme-button {
+        border-radius: 0.3rem;
+
+        padding: 0.8rem 3rem 0.8rem 1.2rem;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      &__theme-name {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  &__dropdown {
+    color: $white-font !important;
+    background-color: red;
+  }
+}
+
+.Dropdown-option.is-selected {
+  background-color: transparent;
+}
+
+.Dropdown-option {
+  &:hover {
+    background-color: transparent;
+  }
+}

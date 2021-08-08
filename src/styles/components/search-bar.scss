@@ -1,0 +1,31 @@
+.ps-c-search-bar {
+  padding: 0rem 8.4rem 3.7rem;
+
+  &__input {
+    font-size: 2.5rem;
+    width: 100%;
+
+    border: none;
+
+    margin-bottom: 0.5rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__dark-line {
+    border-bottom: $main-gray 0.1rem solid;
+  }
+
+  &__light-line {
+    border-bottom: $gray-font 0.1rem solid;
+  }
+}
